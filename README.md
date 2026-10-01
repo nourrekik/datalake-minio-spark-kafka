@@ -1,11 +1,10 @@
 # Data Lake — Phases 2 et 3 : ingestion automatisée et streaming
 
-**Binôme :** Nour REKIK — Bouchra TYAL
+**Binôme :** Nour REKIK — 
 
 | Membre | Travail réalisé |
 |---|---|
-| Nour REKIK | Audit V1, zone incoming/, identités IAM, ingestion, anti-doublon, traçabilité ; Kafka, caisse, producer, observation de Kafka |
-| Bouchra TYAL | Gestion des erreurs et reprise, reconnexion du pipeline, lot de test ; Structured Streaming, indicateur progressif, reprise, cohabitation, incidents |
+| Nour REKIK | Audit V1, zone incoming/, identités IAM, ingestion, anti-doublon, traçabilité ; Kafka, caisse, producer, observation de Kafka | Gestion des erreurs et reprise, reconnexion du pipeline, lot de test ; Structured Streaming, indicateur progressif, reprise, cohabitation, incidents |
 | Commun | Architectures V1/V2/V3, choix techniques, analyse des tests, rapport et README |
 
 Évolution du Data Lake de la phase 1 (MinIO, zones RAW / PROCESSED / CURATED, PySpark) :
