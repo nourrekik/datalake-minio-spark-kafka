@@ -1,6 +1,6 @@
 # Data Lake — Phases 2 et 3 : ingestion automatisée et streaming
 
-**Binôme :** Nour REKIK — 
+** Nour REKIK — 
 
 | Membre | Travail réalisé |
 |---|---|
