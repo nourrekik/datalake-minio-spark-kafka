@@ -1,0 +1,63 @@
+{
+  "minio_url": "http://127.0.0.1:9000",
+  "bucket": "tp2",
+  "incoming_dir": "incoming",
+  "manifest_key": "raw/_ingestion/manifest.json",
+  "journal_dir": "logs",
+  "sources": {
+    "ventes": {
+      "extensions": [
+        ".csv"
+      ],
+      "raw_prefix": "raw/ventes/",
+      "champs_obligatoires": [
+        "id_vente",
+        "date_vente",
+        "id_client",
+        "id_produit",
+        "id_magasin",
+        "quantite"
+      ]
+    },
+    "clients": {
+      "extensions": [
+        ".json"
+      ],
+      "raw_prefix": "raw/clients/",
+      "champs_obligatoires": [
+        "id_client",
+        "nom",
+        "ville",
+        "segment"
+      ]
+    },
+    "produits": {
+      "extensions": [
+        ".xml"
+      ],
+      "raw_prefix": "raw/produits/",
+      "champs_obligatoires": [
+        "id_produit",
+        "nom_produit",
+        "categorie",
+        "prix_unitaire"
+      ]
+    },
+    "magasins": {
+      "extensions": [
+        ".xlsx"
+      ],
+      "raw_prefix": "raw/magasins/",
+      "champs_obligatoires": [
+        "id_magasin",
+        "nom_magasin",
+        "ville",
+        "region"
+      ]
+    }
+  },
+  "kafka": {
+    "bootstrap_servers": "localhost:9092",
+    "topic": "ventes"
+  }
+}

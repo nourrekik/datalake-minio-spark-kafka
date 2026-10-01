@@ -1,0 +1,1 @@
+{"Version":"2012-10-17","Statement":[{"Sid":"ListRaw","Effect":"Allow","Action":["s3:ListBucket"],"Resource":["arn:aws:s3:::tp2"],"Condition":{"StringLike":{"s3:prefix":["raw/*"]}}},{"Sid":"ReadWriteRaw","Effect":"Allow","Action":["s3:GetObject","s3:PutObject"],"Resource":["arn:aws:s3:::tp2/raw/*"]}]}

@@ -1,0 +1,1 @@
+{"Version":"2012-10-17","Statement":[{"Sid":"WriteProcessed","Effect":"Allow","Action":["s3:PutObject"],"Resource":["arn:aws:s3:::tp2/processed/*"]},{"Sid":"WriteCurated","Effect":"Allow","Action":["s3:PutObject"],"Resource":["arn:aws:s3:::tp2/curated/*"]}]}

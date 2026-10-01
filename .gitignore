@@ -1,0 +1,28 @@
+# ---- Secrets : ne JAMAIS publier ----
+config/credentials_*.json
+!config/credentials_*.example.json
+credentials.json
+*.bak
+.env
+
+# ---- Environnement Python ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ---- Données générées à l'exécution ----
+checkpoints/
+logs/
+incoming/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# ---- Fichiers système / éditeur ----
+.DS_Store
+.vscode/
+.idea/
+
+# ---- Archives de rendu ----
+*.zip

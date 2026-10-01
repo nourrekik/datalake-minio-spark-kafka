@@ -1,0 +1,80 @@
+{
+  "magasins": {
+    "M001": "Lyon",
+    "M002": "Paris",
+    "M003": "Nantes",
+    "M004": "Marseille",
+    "M005": "Rennes",
+    "M006": "Lille"
+  },
+  "produits": {
+    "P001": [
+      "Clavier sans fil",
+      "Informatique",
+      29.9
+    ],
+    "P002": [
+      "Souris ergonomique",
+      "Informatique",
+      24.5
+    ],
+    "P003": [
+      "Casque audio",
+      "Audio",
+      49.9
+    ],
+    "P004": [
+      "Enceinte Bluetooth",
+      "Audio",
+      59.0
+    ],
+    "P005": [
+      "Lampe LED",
+      "Maison",
+      18.75
+    ],
+    "P006": [
+      "Gourde inox",
+      "Maison",
+      16.9
+    ],
+    "P007": [
+      "Sac à dos",
+      "Accessoires",
+      39.9
+    ],
+    "P008": [
+      "Support ordinateur",
+      "Accessoires",
+      32.0
+    ],
+    "P009": [
+      "Webcam HD",
+      "Informatique",
+      44.9
+    ],
+    "P010": [
+      "Chargeur USB-C",
+      "Accessoires",
+      21.5
+    ],
+    "P011": [
+      "Casque sans fil",
+      "Audio",
+      79.0
+    ]
+  },
+  "clients": [
+    "C001",
+    "C002",
+    "C003",
+    "C004",
+    "C005",
+    "C006",
+    "C007",
+    "C008",
+    "C009",
+    "C010",
+    "C011"
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id_client": "C001",
+    "nom": "Alice Martin",
+    "ville": "Lyon",
+    "segment": "Particulier"
+  },
+  {
+    "id_client": "C002",
+    "nom": "Karim Diallo",
+    "ville": "PARIS",
+    "segment": "Particulier"
+  },
+  {
+    "id_client": "C003",
+    "nom": "Sophie Bernard",
+    "ville": " Nantes ",
+    "segment": "Professionnel"
+  },
+  {
+    "id_client": "C004",
+    "nom": "Jean Kouassi",
+    "ville": "Lyon",
+    "segment": "Professionnel"
+  },
+  {
+    "id_client": "C005",
+    "nom": "Mariam Traoré",
+    "ville": "Marseille",
+    "segment": "Particulier"
+  },
+  {
+    "id_client": "C006",
+    "nom": "Lucas Robert",
+    "ville": "paris",
+    "segment": "Particulier"
+  },
+  {
+    "id_client": "C007",
+    "nom": "Fatou Mensah",
+    "ville": "",
+    "segment": "Professionnel"
+  },
+  {
+    "id_client": "C008",
+    "nom": "Emma Petit",
+    "ville": "Rennes",
+    "segment": "Particulier"
+  },
+  {
+    "id_client": "C009",
+    "nom": "Noah Morel",
+    "ville": "NANTES",
+    "segment": "Particulier"
+  },
+  {
+    "id_client": "C010",
+    "nom": "Inès Laurent",
+    "ville": "Lille",
+    "segment": null
+  },
+  {
+    "id_client": "C010",
+    "nom": "Inès Laurent",
+    "ville": "Lille",
+    "segment": null
+  }
+]
